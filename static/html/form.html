@@ -1,0 +1,44 @@
+
+
+<body ng-controller="postController">
+   
+
+<h2> {{contact}}</h2>
+<form class="col s12"   name="searchForm" novalidate="" role="form" ng-submit="submitForm()">
+    <div class="row">
+         <div class="input-field col s12">
+            Id:
+               <input  id="name" type="number" placeholder="Id" ng-model="form.id" class="validate"></input>
+           
+         </div>
+    </div>
+    <div class="row">
+       <div class="input-field col s12">
+           UserID:
+          <input placeholder="UserId" id="UserId" type="number" ng-model="form.userId" class="validate"></input>
+         
+       </div>
+    </div>			
+    <div class="row">
+       <div class="input-field col s12">
+           Title:
+          <input placeholder="Title" id="title" type="text" ng-model="form.title" ></input>
+          
+       </div>
+         <div class="row">
+       <div class="input-field col s12">
+           Body:
+          <input placeholder="Body" id="body" type="text" ng-model="form.body" ></input>
+          
+       </div>
+    </div>
+    <div class="row">
+       <div class="input-field col s12">
+          
+           <button class="btn waves-effect waves-teal" type="submit" class="btn btn-primary">Submit</button>
+       </div>
+    </div>
+   
+</form>
+
+</body>

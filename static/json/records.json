@@ -1,0 +1,98 @@
+{
+
+	"basics": {
+		"name": "Anil Sheoran",
+		"label": "",
+		"picture": "",
+		"email": "Anilkumar.sheoran@gmail.com",
+		"phone": "9980758589",
+		"degree": "",
+		"website": "Your website URL",
+		"summary": "Hello! I'm Anil Kumar Sheoran and I am a Website Developer and Automation Tester, currently working as Software Developer in Accenture Pvt Ltd.",
+		"highlights": [
+			"Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+		],
+		"location": {
+			"address": "H.no 1225, Sector 10A",
+			"postalCode": "122001",
+			"city": "Gurgaon",
+			"countryCode": "India",
+			"region": "Your region (state in the U.S.)"
+		},
+		"profiles": [{
+			"network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+			"username": "Your username on this network",
+			"url": "A URL to your user profile page"
+		}]
+	},
+	"Experience": {
+		"company": "Accenture Pvt Ltd",
+		"position": "Software Engineer",
+		"website": "www.accenture.com",
+		"period":"October 2014- Till Now",
+		"startDate": "2014-10-08 ",
+		"endDate": "(leave blank for a current position)",
+		"summary": "I Created Automation Scripts which help in decrease the human load & increase productivity. I was responsible for the Quality Assurance for the deliverables.",
+		"highlights": [
+			"Bullet-point list items that you would like to include along with (or instead of) a summary paragraph."
+		]
+	},
+	"additionalWork": [{
+		"company": "Job history that you would like to group separately (e.g. old jobs, academic positions, etc)",
+		"position": "All fields under the section are the same as for 'work'",
+		"website": "",
+		"startDate": "",
+		"endDate": "",
+		"summary": "",
+		"highlights": [
+			"Templates typically omit highlights for 'additionalWork' positions"
+		]
+	}],
+
+	"education": {
+		"institution": "The Technological Institute of Textile & Sciences, Bhiwani",
+		"university":"MDU Rhotak",
+		"period":"2010-2014",
+		"area": "B.tech Information technology",
+		"studyType": "Information technology",
+		"startDate": "2010-07-30",
+		"qualification":"Bachalor Of Technology",
+		"endDate": "Your completion date, in YYYY-MM-DD format",
+		"gpa": "68%",
+		"courses": [
+			""
+		]
+	},
+	"skills": [{
+		"name": "A category of job skills (e.g. 'Programming Languages')",
+		"level": "",
+		"keywords": [
+			"Keywords under this category (e.g. 'Java', 'C++', etc)"
+		]
+	}]
+	,
+	"Project1":{
+	  
+	  "Description":"CIO-08 is a Finance outsourcing project, where all the business deals are evaluated with the help of a excel based tool DATA, which is based on Dot Net"
+		,"Client":"Accenture Pvt Ltd"  ,
+		"Projectname":"CIO-08(OutSourcing Finance) ",
+		"Role":"Software Engineer",
+		"Post":"Automation & Manual Tester",
+		"Duration":"December 2014-January 2016",
+		"Responsibilities":"Automation of Costing module on UFT."
+		
+	}
+	,
+	"Project2":{
+	  
+	  "Description":"Costing & Pricing Engine is a tool used for getting client data & providing a estimate for any particular deal.",
+		"Client":"Accenture Pvt Ltd",
+		"Projectname":"Cost & Pricing Engine ",
+		"Role":"Software Engineer",
+		"Post":"Automation & Manual Tester",
+		"Duration":"January 2016 to till date",
+		"Responsibilities":"QA Requirement Analysis."
+	}
+
+
+}
