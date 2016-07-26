@@ -1,14 +1,15 @@
 var appControllers = angular.module('appControllers',[]);
 
-appControllers.controller('aboutMeController', function($scope,$http,$stateParams){
-    $http.get('http://jsonplaceholder.typicode.com/posts')
-    .then(function (response) {
-        $scope.myWelcome = response.data;
-    });
-    $scope.name = "fdfdgffdgfdg";
-   });	
-
+appControllers.controller('aboutMeController', function($scope,$http,$stateParams,mservice){
+   var componentUrl = 'http://jsonplaceholder.typicode.com/posts';
+   var componentPromise = mservice.getPromise(componentUrl);
+   componentPromise.then(function(result){
+      $scope.myWelcome = result.data        
+   });
+ });  
+    
 appControllers.controller('detailController', function ($scope, $http, $stateParams) {
+ 
     $http({method:"get", url:'http://jsonplaceholder.typicode.com/posts', params:{id:$stateParams.id}})
     .then(function (response) {
         $scope.detail = response.data;
