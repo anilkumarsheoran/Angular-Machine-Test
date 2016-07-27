@@ -9,14 +9,15 @@
          <div class="input-field col s12">
             Id:
                <input  name="name" id="name" type="text" placeholder="Id" ng-model="form.id" validation-form-number >
-            <span style="color: red;" ng-show="searchForm.name.$error.number">Invalid value</span>
+            <span style="color: red;" ng-show="searchForm.name.$error.number">Enter a Valid number</span>
      
          </div>
     </div>
     <div class="row">
        <div class="input-field col s12">
            UserID:
-          <input placeholder="UserId" id="UserId" type="number" ng-model="form.userId"></input>     
+          <input placeholder="UserId" id="UserId" name="UserId" type="text" ng-model="form.userId" validation-form-number></input>     
+           <span style="color: red;" ng-show="searchForm.UserId.$error.number">Enter a Valid number</span>
        </div>
     </div>			
     <div class="row">
