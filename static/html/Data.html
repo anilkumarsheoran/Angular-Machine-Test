@@ -1,8 +1,12 @@
 
 <div style="border:6px solid">
-<table  border="1">
+<table  class="bordered">
+    <tr><th><h5>Id</h5><p>(Using Custom Service, Consuming REST API(http://jsonplaceholder.typicode.com/posts))</p></th></tr>
     <tr data-ng-repeat="x in myWelcome">
-        <td><a ui-sref="idDetail({id:x.id})">{{x.id}}</a></td>
+        <td> <div class="row">
+         <div class="col s12 m3"><a ui-sref="idDetail({id:x.id})"><div class="card-panel teal">
+               <span class="white-text center"><h4>{{x.id}}  </h4>(Click to view complete Details of the Id)</span>
+            </div></a></div></div></td>
        
     </tr>
 </table>
