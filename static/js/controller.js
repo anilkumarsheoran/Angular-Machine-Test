@@ -21,6 +21,9 @@ appControllers.controller('detailController', function ($scope, $http, $statePar
 appControllers.controller('postController', function($scope, $http) {
     
     $scope.form = {};
+    $scope.resetForm = function () {
+        $scope.form = ""
+    };
    
     $scope.submitForm = function () {
 
@@ -33,11 +36,9 @@ appControllers.controller('postController', function($scope, $http) {
           .success(function (data) {
               if (data.errors) {
                   // Showing errors.
-                  $scope.errorName = data.errors.name;
-                  $scope.errorUserName = data.errors.username;
-                  $scope.errorEmail = data.errors.email;
+                  alert("Error in Post Request")
               } else {
-                  $scope.message = data.message;
+                  alert("Successful Post Request")
               }
           });
     }
