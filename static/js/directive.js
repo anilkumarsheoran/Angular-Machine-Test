@@ -1,4 +1,4 @@
-var appDirectives = angular.module('appDirectives', []);
+    var appDirectives = angular.module('appDirectives', []);
 appDirectives.directive('validationFormNumber', function () {
     return {
         require: 'ngModel',
@@ -7,7 +7,7 @@ appDirectives.directive('validationFormNumber', function () {
             ctrl.$formatters.unshift(checkForno);
 
             function checkForno(viewValue) {
-                if (parseInt(viewValue)%2 === 0) {
+                if (/[0-9]/.test(parseInt(viewValue))) {
                     ctrl.$setValidity('number', true);
                 }
                 else {
