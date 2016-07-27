@@ -1,4 +1,5 @@
-app.directive('validationFormNumber', function () {
+var appDirectives = angular.module('appDirectives', []);
+appDirectives.directive('validationFormNumber', function () {
     return {
         require: 'ngModel',
         link: function (scope, elem, attrs, ctrl) {

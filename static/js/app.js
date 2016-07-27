@@ -1,4 +1,4 @@
-var app = angular.module('testapp', ['ui.router','angularService', 'appControllers']);
+var app = angular.module('testapp', ['ui.router','appDirectives','angularService', 'appControllers']);
 
 /***State Routing Start***/  
 app.config(function($stateProvider, $urlRouterProvider,$locationProvider) {
